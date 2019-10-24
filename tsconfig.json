@@ -6,17 +6,10 @@
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "esModuleInterop": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "es5",
+    "module": "es6",
+    "target": "es6",
     "outDir": "./lib",
-    "lib": [
-      "es5",
-      "dom",
-      "es2015",
-    ]
+    "lib": ["es6", "dom", "es2015"]
   },
-  "include": [
-    "src/**/*.ts"
-  ]
+  "include": ["src/**/*.ts"]
 }

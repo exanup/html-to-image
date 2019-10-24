@@ -51,6 +51,7 @@
     "lint": "tslint ./src/*.ts -c tslint.json -p tsconfig.json --fix",
     "clean": "rimraf lib",
     "build": "tsc",
+    "prepare": "npm run prebuild && npm run prepublish",
     "prebuild": "npm run lint",
     "prepublish": "npm run build",
     "precommit": "npm run lint"
